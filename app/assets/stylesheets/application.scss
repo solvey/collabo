@@ -1,7 +1,45 @@
-h1 {
-	color: red;
-	border: solid 5px;
-	}
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+body {
+font-family: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic'  
+}
+
+ul {
+	list-style: none;
+}
+
+header {
+	background-color: #26d0c9;
+	height: 90px;
+	color: #fff;
+}
+
+.header-logo {
+	float: left;
+	font-size: 30px;
+	padding: 20px 40px;
+}
+
+.header-list {
+	float: right;
+}
+
+.header-list li {
+	float: right;
+	padding: 33px 20px;
+}
+
+.top-wrapper h1 {
+	text-align: center;
+	font-size: 60px;
+}
+
+.header-list h1 {
+	float: right;
+	font-size: 20px;
+}
 
 h2 {
 	background-color: blue;
